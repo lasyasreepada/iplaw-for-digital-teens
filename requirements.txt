@@ -3,7 +3,4 @@ Jinja2==2.8
 gunicorn==19.6.0
 virtualenvwrapper==4.7.2
 Werkzeug==0.11.11
-certifi==0.0.8
-chardet==1.0.1
-distribute==0.6.24
-requests==0.11.1
+
