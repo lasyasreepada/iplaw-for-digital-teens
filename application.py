@@ -20,8 +20,8 @@ def home():
     return render_template('home.html')
 
 @app.route("/quiz")
-def runquiz():
-    return quiz()
+def quiz():
+    return render_template('quiz.html')
 
 @app.route("/memes")
 def memes():
