@@ -8,7 +8,6 @@ May 6, 2017
 """
 
 from flask import Flask, render_template
-from questions import quiz
 app = Flask(__name__)
 
 @app.route("/")
