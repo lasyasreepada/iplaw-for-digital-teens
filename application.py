@@ -8,6 +8,7 @@ May 6, 2017
 """
 
 from flask import Flask, render_template
+import urllib.request
 app = Flask(__name__)
 
 @app.route("/")
@@ -21,6 +22,7 @@ def home():
 @app.route("/quiz")
 def quiz():
     return render_template('quiz.html')
+
 
 @app.route("/memes")
 def memes():
