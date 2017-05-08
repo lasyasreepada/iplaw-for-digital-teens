@@ -2,7 +2,7 @@
 
 Lasya Sreepada
 Yale University '19
-CPSC 184 
+CPSC 184
 
 May 6, 2017
 """
@@ -22,7 +22,6 @@ def home():
 @app.route("/quiz")
 def quiz():
     return render_template('quiz.html')
-
 
 @app.route("/memes")
 def memes():
