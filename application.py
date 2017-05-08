@@ -15,10 +15,6 @@ app = Flask(__name__)
 def main():
     return render_template('index.html')
 
-@app.route("/home")
-def home():
-    return render_template('home.html')
-
 @app.route("/quiz")
 def quiz():
     return render_template('quiz.html')
