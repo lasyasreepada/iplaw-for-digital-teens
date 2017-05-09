@@ -33,7 +33,7 @@ def trademark():
 
 @app.route("/patent")
 def patent():
-    return render_template('patents.html')
+    return render_template('patent.html')
 
 
 if __name__ == "__main__":
