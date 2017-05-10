@@ -15,9 +15,17 @@ app = Flask(__name__)
 def main():
     return render_template('index.html')
 
+@app.route("/reading")
+def reading():
+    return render_template('reading.html')
+
 @app.route("/quiz")
 def quiz():
     return render_template('quiz.html')
+
+@app.route("/humor")
+def humor():
+    return render_template('humor.html')
 
 @app.route("/memes")
 def memes():
